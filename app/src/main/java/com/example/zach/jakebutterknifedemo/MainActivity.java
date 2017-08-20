@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnLongClick(R.id.longPress)
     boolean buttonLongClick() {
-        Toast.makeText(MainActivity.this, "Button的长按事件触发。。。(无参-默认)", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Button is long clicked", Toast.LENGTH_SHORT).show();
         return false;
     }
     //    @OnLongClick(R.id.button)
